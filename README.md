@@ -266,4 +266,3 @@
 ![submisions_table](/images/nocodb_submisions_table.png)
 ## Связи таблицы Submissions
 ![submisions_conn](/images/nocodb_submisions_connection.png)
-
