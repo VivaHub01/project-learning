@@ -241,3 +241,29 @@
 | SubmittedAt | DateTime      |                       |
 ## Связи между таблицами
 ![mvp](/images/mvp.svg)
+# Nocodb (данные и связи таблиц)
+## Данные таблицы Users
+![user_table](/images/nocodb_users_table.png)
+## Связи таблицы Users
+![user_conn](/images/nocodb_users_connection.png)
+## Данные таблицы Projects
+![projects_table](/images/nocodb_projects_table.png)
+## Связи таблицы Projects
+![projects_conn](/images/nocodb_projects_connection.png)
+## Данные таблицы Teams
+![teams_table](/images/nocodb_teams_table.png)
+## Связи таблицы Teams
+![teams_conn](/images/nocodb_teams_connection.png)
+## Данные таблицы TeamMembers
+![teammembers_table](/images/nocodb_teammembers_table.png)
+## Связи таблицы TeamMembers
+![teammembers_conn](/images/nocodb_teammembers_connection.png)
+## Данные таблицы Tasks
+![tasks_table](/images/nocodb_tasks_table.png)
+## Связи таблицы Tasks
+![tasks_conn](/images/nocodb_tasks_connection.png)
+## Данные таблицы Submissions
+![submmisions_table](/images/nocodb_submmisions_table.png)
+## Связи таблицы Submissions
+![submmisions_conn](/images/nocodb_submmisions_connection.png)
+
