@@ -263,7 +263,7 @@
 ## Связи таблицы Tasks
 ![tasks_conn](/images/nocodb_tasks_connection.png)
 ## Данные таблицы Submissions
-![submmisions_table](/images/nocodb_submmisions_table.png)
+![submisions_table](/images/nocodb_submisions_table.png)
 ## Связи таблицы Submissions
-![submmisions_conn](/images/nocodb_submmisions_connection.png)
+![submisions_conn](/images/nocodb_submisions_connection.png)
 
