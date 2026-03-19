@@ -266,6 +266,180 @@
 ![submissions_table](/images/nocodb_submissions_table.png)
 ## Связи таблицы Submissions
 ![submissions_conn](/images/nocodb_submissions_connection.png)
+# Pytest
+=================================================== test session starts ===================================================
+platform win32 -- Python 3.12.7, pytest-9.0.2, pluggy-1.6.0 -- C:\Users\Napoleon\AppData\Local\pypoetry\Cache\virtualenvs\project-learning-azyuupPk-py3.12\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: d:\Projects\project-learning
+configfile: pyproject.toml
+collected 3 items                                                                                                          
+
+tests/test_users.py::TestUsers::test_users_connection PASSED                                                         [ 33%]
+tests/test_users.py::TestUsers::test_users_structure PASSED                                                          [ 66%]
+tests/test_users.py::TestUsers::test_users_data_quality PASSED                                                       [100%]
+
+==================================================== 3 passed in 0.09s ====================================================
+=================================================== test session starts ===================================================
+platform win32 -- Python 3.12.7, pytest-9.0.2, pluggy-1.6.0 -- C:\Users\Napoleon\AppData\Local\pypoetry\Cache\virtualenvs\project-learning-azyuupPk-py3.12\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: d:\Projects\project-learning
+configfile: pyproject.toml
+collected 3 items                                                                                                           
+
+tests/test_projects.py::TestProjects::test_projects_connection PASSED                                                [ 33%]
+tests/test_projects.py::TestProjects::test_projects_structure PASSED                                                 [ 66%]
+tests/test_projects.py::TestProjects::test_projects_required_fields PASSED                                           [100%] 
+
+==================================================== 3 passed in 0.06s ==================================================== 
+=================================================== test session starts ===================================================
+platform win32 -- Python 3.12.7, pytest-9.0.2, pluggy-1.6.0 -- C:\Users\Napoleon\AppData\Local\pypoetry\Cache\virtualenvs\project-learning-azyuupPk-py3.12\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: d:\Projects\project-learning
+configfile: pyproject.toml
+collected 3 items                                                                                                           
+
+tests/test_teams.py::TestTeams::test_teams_connection PASSED                                                         [ 33%]
+tests/test_teams.py::TestTeams::test_teams_structure PASSED                                                          [ 66%] 
+tests/test_teams.py::TestTeams::test_teams_members_relation PASSED                                                   [100%]
+
+==================================================== 3 passed in 0.06s ==================================================== 
+=================================================== test session starts ===================================================
+platform win32 -- Python 3.12.7, pytest-9.0.2, pluggy-1.6.0 -- C:\Users\Napoleon\AppData\Local\pypoetry\Cache\virtualenvs\project-learning-azyuupPk-py3.12\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: d:\Projects\project-learning
+configfile: pyproject.toml
+collected 3 items                                                                                                           
+
+tests/test_teammembers.py::TestTeamMembers::test_teammembers_connection PASSED                                       [ 33%]
+tests/test_teammembers.py::TestTeamMembers::test_teammembers_structure PASSED                                        [ 66%] 
+tests/test_teammembers.py::TestTeamMembers::test_teammembers_roles PASSED                                            [100%]
+
+==================================================== 3 passed in 0.04s ==================================================== 
+=================================================== test session starts ===================================================
+platform win32 -- Python 3.12.7, pytest-9.0.2, pluggy-1.6.0 -- C:\Users\Napoleon\AppData\Local\pypoetry\Cache\virtualenvs\project-learning-azyuupPk-py3.12\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: d:\Projects\project-learning
+configfile: pyproject.toml
+collected 3 items                                                                                                           
+
+tests/test_tasks.py::TestTasks::test_tasks_connection PASSED                                                         [ 33%]
+tests/test_tasks.py::TestTasks::test_tasks_structure PASSED                                                          [ 66%]
+tests/test_tasks.py::TestTasks::test_tasks_with_deadline PASSED                                                      [100%]
+
+==================================================== 3 passed in 0.05s ==================================================== 
+=================================================== test session starts ===================================================
+platform win32 -- Python 3.12.7, pytest-9.0.2, pluggy-1.6.0 -- C:\Users\Napoleon\AppData\Local\pypoetry\Cache\virtualenvs\project-learning-azyuupPk-py3.12\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: d:\Projects\project-learning
+configfile: pyproject.toml
+collected 3 items                                                                                                          
+
+tests/test_submissions.py::TestSubmissions::test_submissions_connection PASSED                                       [ 33%]
+tests/test_submissions.py::TestSubmissions::test_submissions_structure PASSED                                        [ 66%] 
+tests/test_submissions.py::TestSubmissions::test_submissions_grades PASSED                                           [100%]
+
+==================================================== 3 passed in 0.04s ==================================================== 
+=================================================== test session starts ===================================================
+platform win32 -- Python 3.12.7, pytest-9.0.2, pluggy-1.6.0 -- C:\Users\Napoleon\AppData\Local\pypoetry\Cache\virtualenvs\project-learning-azyuupPk-py3.12\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: d:\Projects\project-learning
+configfile: pyproject.toml
+collected 1 item                                                                                                            
+
+tests/test_crud_operations.py::TestCrudOperations::test_create_temp_record PASSED                                    [100%]
+
+==================================================== 1 passed in 0.05s ==================================================== 
+=================================================== test session starts ===================================================
+platform win32 -- Python 3.12.7, pytest-9.0.2, pluggy-1.6.0 -- C:\Users\Napoleon\AppData\Local\pypoetry\Cache\virtualenvs\project-learning-azyuupPk-py3.12\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: d:\Projects\project-learning
+configfile: pyproject.toml
+collected 1 item                                                                                                            
+
+tests/test_performance.py::TestPerformance::test_response_time_all_tables PASSED                                     [100%]
+
+==================================================== 1 passed in 0.06s ==================================================== 
+=================================================== test session starts ===================================================
+platform win32 -- Python 3.12.7, pytest-9.0.2, pluggy-1.6.0 -- C:\Users\Napoleon\AppData\Local\pypoetry\Cache\virtualenvs\project-learning-azyuupPk-py3.12\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: d:\Projects\project-learning
+configfile: pyproject.toml
+collected 12 items                                                                                                         
+
+tests/test_accessibility.py::test_table_accessible[users] PASSED                                                     [  8%]
+tests/test_accessibility.py::test_table_accessible[projects] PASSED                                                  [ 16%] 
+tests/test_accessibility.py::test_table_accessible[teams] PASSED                                                     [ 25%]
+tests/test_accessibility.py::test_table_accessible[teammembers] PASSED                                               [ 33%] 
+tests/test_accessibility.py::test_table_accessible[tasks] PASSED                                                     [ 41%]
+tests/test_accessibility.py::test_table_accessible[submissions] PASSED                                               [ 50%]
+tests/test_accessibility.py::test_table_has_min_records[users-1] PASSED                                              [ 58%] 
+tests/test_accessibility.py::test_table_has_min_records[projects-0] PASSED                                           [ 66%]
+tests/test_accessibility.py::test_table_has_min_records[teams-0] PASSED                                              [ 75%]
+tests/test_accessibility.py::test_table_has_min_records[teammembers-0] PASSED                                        [ 83%] 
+tests/test_accessibility.py::test_table_has_min_records[tasks-0] PASSED                                              [ 91%]
+tests/test_accessibility.py::test_table_has_min_records[submissions-0] PASSED                                        [100%]
+
+=================================================== 12 passed in 0.13s ====================================================
+# 📊 ОТЧЕТ О ТЕСТИРОВАНИИ
+# Общая статистика
+| Файл тестов             | Всего тестов | Пройдено | Провалено | Время |
+|-------------------------|--------------|----------|-----------|-------|
+| test_users.py           | 3            | 3        | 0         | 0.09с |
+| test_projects.py        | 3            | 3        | 0         | 0.06с |
+| test_teams.py           | 3            | 3        | 0         | 0.06с |
+| test_teammembers.py     | 3            | 3        | 0         | 0.04с |
+| test_tasks.py           | 3            | 3        | 0         | 0.05с |
+| test_submissions.py     | 3            | 3        | 0         | 0.04с |
+| test_crud_operations.py | 1            | 1        | 0         | 0.05с |
+| test_performance.py     | 1            | 1        | 0         | 0.06с |
+| test_accessibility.py   | 12           | 12       | 0         | 0.13с |
+| ИТОГО                   | 32           | 32       | 0         | 0.58с |
+# ✅ Детальные результаты по таблицам
+## Таблица Users
+✅ test_users_connection
+✅ test_users_structure
+✅ test_users_data_quality
+## Таблица Projects
+✅ test_projects_connection
+✅ test_projects_structure
+✅ test_projects_required_fields
+## Таблица Teams
+✅ test_teams_connection
+✅ test_teams_structure
+✅ test_teams_members_relation
+## Таблица TeamMembers
+✅ test_teammembers_connection
+✅ test_teammembers_structure
+✅ test_teammembers_roles
+## Таблица Tasks
+✅ test_tasks_connection
+✅ test_tasks_structure
+✅ test_tasks_with_deadline
+## Таблица Submissions
+✅ test_submissions_connection
+✅ test_submissions_structure
+✅ test_submissions_grades
+## CRUD операции
+✅ test_create_temp_record
+## Производительность
+✅ test_response_time_all_tables
+## Доступность таблиц
+✅ users ✅ projects ✅ teams ✅ teammembers ✅ tasks ✅ submissions
+## 📈 Сводка
+* Всего тестов: 32
+* Пройдено успешно: 32
+* Провалено: 0
+* Общее время: 0.58с
+* Среднее время на тест: 0.018с
+## ✅ Все тесты пройдены успешно!
+| Показатель              | Статус |
+|-------------------------|--------|
+| API доступность         | ✅      |
+| Структура таблиц        | ✅      |
+| Качество данных         | ✅      |
+| CRUD операции           | ✅      |
+| Производительность      | ✅      |
+| Доступность всех таблиц | ✅      |
 # Анализ безопастности с помощью Trivy
 ✅ Сканирование завершено. Отчет: trivy-reports\trivy_20260318_141718.json
 # РЕЗУЛЬТАТЫ СКАНИРОВАНИЯ
